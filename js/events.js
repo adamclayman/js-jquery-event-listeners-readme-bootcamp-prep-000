@@ -10,7 +10,7 @@ function frameIt() {
   });
 }
 function pressIt() {
-  $('#typing input').on('keydown', function () {
+  $('form input:first-child').on('keydown', function () {
     if (input.which === 'G') {
       alert('You entered a G!');
     }
