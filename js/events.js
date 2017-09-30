@@ -11,7 +11,7 @@ function frameIt() {
 }
 function pressIt() {
   $('form input:first-child').on('keydown', function (key) {
-    if (key.which === 'G') {
+    if (key.which === 71) {
       alert('You entered a G!');
     }
   });
